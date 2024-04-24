@@ -1,0 +1,23 @@
+html {
+    text-align: center;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-height: 500px;
+}
+
+.container {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.container > * {
+    margin: 25px auto;
+}
+
+.container img {
+    display: block;
+}
